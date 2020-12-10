@@ -1,0 +1,56 @@
+#banner {
+  background-color: #EFE7DF;
+  padding: 60px;
+}
+
+.header {
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: solid ;
+  border-color:#F7F4EF;
+  border-width: 2px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.img-circle:hover {
+  transform: scale(1.1);
+  transition: .3s ease-in-out;
+}
+
+.logo-social {
+  font-size: 30px;
+  color: #DBBAB0;
+  margin: 0px 6px;
+
+}
+
+.logo-social:hover {
+  color: #BE8070;
+}
+
+
+#banner-bottom {
+  background-color: #EFE7DF;
+  padding: 40px;
+}
+
+.container-bottom {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 0;
+  margin-bottom: 40px;
+}
+
+.container-bottom p {
+  margin-bottom: 40px;
+}
+

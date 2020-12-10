@@ -1,0 +1,49 @@
+#experiences {
+  width: 900px;
+  margin: 0px auto;
+
+}
+
+#experiences h2 {
+  text-align: center;
+  padding: 80px 0px 0px 0px;
+}
+
+
+.card-experience {
+  display: flex;
+  align-items: center;
+
+  background-color: none;
+}
+
+.card-experience img {
+  align-items: left;
+}
+
+
+.card-text {
+  padding-left: 40px;
+}
+
+.card-text h3 {
+  margin-top: 10px;
+}
+
+
+.link {
+  background-color: transparent;
+  color: #BE8070;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: #DBBAB0;
+}
+
+
+hr {
+  color: #6A6767;
+  opacity: 0.1;
+  margin: 40px 0px;
+}

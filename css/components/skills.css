@@ -1,0 +1,29 @@
+#skills {
+  width: 1100px;
+  margin: 0px auto;
+  margin-bottom: 80px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-skills {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+
+  background-color: #FDFCFA;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.card-skills h3 {
+  text-align: center;
+  align-items: center;
+}
+
+.card-skills:hover {
+  background-color: #DBBAB0;
+  transition: 0.8s ease;
+}
+
